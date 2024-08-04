@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @keyframes box {
+            0% {
+                width: 8px;
+                height: 8px;
+            }
+            99% {
+                width: 100px;
+                height: 100px;
+            }
+            100% {
+                display: none;
+            }
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 95vh;
+        }
+        .wrapper div {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #bcb8b8;
+            animation: box 3s ease-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div></div>
+    </div>
+</body>
+</html>

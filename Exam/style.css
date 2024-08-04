@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.background {
+    width: 100%;
+    height: 856px;
+    background: #F7F8FD;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/*!!!!!!!!!!!HEADER!!!!!!!!!!!!!*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+nav ul li button {
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 11px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #03045E;
+}
+
+/*!!!!!!!!!!!!! MAIN !!!!!!!!!!!!!!!!!!!*/
+
+main h2 {
+    color: #03045E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px; /* 141.667% */
+    width: 556px;
+}
+main p {
+    color: rgba(3, 4, 94, 0.50);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 36px;
+}
+main button {
+    padding: 17px 38px;
+    border-radius: 5px;
+    background: #0098FF;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin-top: 36px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 121px;
+}
+
+main div {
+    margin-right: 71px;
+}
+/*!!!!!!!!!!!! SECTION SEARCH DOMAIN !!!!!!!!!!!!!!!!*/
+.search-domain {
+    margin-top: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form h3 {
+    color: #03045E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+.form input[type="text"] {
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 380px;
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    background-color: #F6F6F6;
+}
+.form input[type="submit"] {
+    border-radius: 0 5px 5px 0;
+    background: #0098FF;
+    width: 160px;
+    height: 60px;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+form {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+}
+.search-domain .line {
+    opacity: 0.1;
+    background: #03045E;
+    width: 1px;
+    height: 134px;
+}
+.top-column, .bottom-column {
+    display: flex;
+    gap: 115px;
+}
+.bottom-column {
+    margin-top: 32px;
+}
+.pricing .domain {
+    color: #0098FF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.pricing .price {
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.3;
+}
+/*!!!!!!!!! SECTION OUR SERVICES !!!!!!!!!!!*/
+.our-services h2 {
+    margin-top: 300px;
+    color: #03045E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.our-services h5 {
+    color: #03045E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.our-services p {
+    opacity: 0.5;
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.top-column-services {
+    margin-top: 60px;
+}
+.bottom-column-services {
+    margin-top: 80px;
+}
+.top-column-services, .bottom-column-services {
+    display: flex;
+    align-items: center;
+}
+.top-column-services div, .bottom-column-services div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+/*!!!!!!!!! SECTION OUR CLIENTS !!!!!!!!!!!*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.box {
+    width: 404px;
+    height: 262px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.our-clients h2 {
+    color: #03045E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 300px;
+}
+.our-clients .long-text {
+    color: #03045E;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.5;
+    width: 327px;
+}
+.our-clients h5 {
+    color: #03045E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+.our-clients .short-text {
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-top: 8px;
+}
+.icon-svg {
+   display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+/*!!!!!!!!! SECTION STATISTICS !!!!!!!!!!!*/
+.statistics {
+    background: #0098FF;
+    height: 315px;
+}
+.statistics .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 315px;
+}
+.statistics h3 {
+    color: #FFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+.statistics p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.statistics div {
+    width: 297px;
+}
+/*!!!!!!!!! Section flexible plan !!!!!!!!!!!*/
+.content-flexible-plan {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-flexible-plan h2 {
+    text-align: center;
+    color: #03045E;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+.plans {
+    display: flex;
+    margin-top: 60px;
+}
+.plans div {
+    width: 318px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.plans .name {
+    color: #0098FF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.plans .prices {
+    color: #03045E;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+.plans p:nth-child(3) {
+    margin-top: 40px;
+}
+.description {
+    width: 318px;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #F7F8FD;
+    opacity: 0.5;
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.description span {
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.plans button {
+    width: 150px;
+    height: 50px;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #03045E;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.chose-div {
+    background-color: #0098FF;
+}
+.chose-div .name, .chose-div .prices, .chose-div .description, .chose-div .description span{
+    color: white;
+    opacity: 1;
+}
+/*!!!!!!!!! FOOTER !!!!!!!!!!!*/
+.wrapper-footer {
+    background: rgba(246, 246, 246, 0.44);
+}
+.content-footer {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 472px;
+    padding: 100px 0;
+}
+.content-footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.content-footer .icons {
+    display: flex;
+    flex-direction: row;
+   gap: 20px;
+}
+.description-footer {
+    width: 297px;
+    margin-top: 24px;
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.content-footer h6 {
+    color: #000;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.content-footer a, .content-footer address, .phone-number {
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+    line-height: 40px;
+    text-decoration: none;
+    font-style: normal;
+}
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 98px;
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bottom-content p {
+    color: #03045E;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}

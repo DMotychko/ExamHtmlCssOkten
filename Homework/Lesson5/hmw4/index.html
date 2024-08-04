@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .div1 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            padding-top: 50px;
+            height: 100vh;
+            background-color: #01fbdc;
+        }
+        p {
+            width: 900px;
+            font-size: 20px;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            font-size: 40px;
+            color: black;
+        }
+        .div2 {
+            background-color: #b2ed55;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            height: 100vh;
+            justify-content: center;
+        }
+        .div3 {
+            background-color: khaki;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            height: 100vh;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="div1" id="div-top">
+    <h2>Section title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur atque commodi deleniti eaque
+        esse est ex, facilis fuga iste nulla perferendis possimus quasi quisquam quod soluta unde! Laudantium.</p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur consectetur culpa delectus
+        distinctio earum eveniet hic itaque laborum minima nam nisi odio odit, possimus quibusdam quidem sunt suscipit
+        unde.
+    </p>
+    <a href="#div-center">&#8595;</a>
+</div>
+<div class="div2" id="div-center">
+    <a href="#div-top">&#8593;</a>
+    <h2>Section title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur atque commodi deleniti eaque
+        esse est ex, facilis fuga iste nulla perferendis possimus quasi quisquam quod soluta unde! Laudantium.</p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur consectetur culpa delectus
+        distinctio earum eveniet hic itaque laborum minima nam nisi odio odit, possimus quibusdam quidem sunt suscipit
+        unde.
+    </p>
+    <a href="#div-bottom">&#8595;</a>
+</div>
+<div class="div3" id="div-bottom">
+    <a href="#div-top">&#8593;</a>
+    <h2>Section title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias aspernatur atque commodi deleniti eaque
+        esse est ex, facilis fuga iste nulla perferendis possimus quasi quisquam quod soluta unde! Laudantium.</p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur consectetur culpa delectus
+        distinctio earum eveniet hic itaque laborum minima nam nisi odio odit, possimus quibusdam quidem sunt suscipit
+        unde.
+    </p>
+</div>
+</body>
+</html>

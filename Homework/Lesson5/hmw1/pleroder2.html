@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            width: 150px;
+            height: 150px;
+            background-color: gray;
+            animation: box 3.5s ease-out infinite;
+        }
+        @keyframes box {
+            0% {
+                border-radius: 1%;
+                rotate: 1deg;
+                transform: scale(1);
+            }
+            100% {
+                border-radius: 50%;
+                rotate: 640deg;
+                transform: scale(0.7);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
